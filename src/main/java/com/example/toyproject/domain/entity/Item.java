@@ -1,4 +1,4 @@
-package com.example.toyproject.entity;
+package com.example.toyproject.domain.entity;
 
 import com.example.toyproject.constant.ItemSellStatus;
 import lombok.Getter;
