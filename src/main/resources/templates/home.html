@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thmeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/layout}">
 <head>
-    <meta charset="UTF-8">
     <title>Home</title>
 </head>
-<body>
-home
-</body>
+
+<div layout:fragment="content">
+    Main 페이지 입니다.
+</div>
+
 </html>
